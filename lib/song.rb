@@ -42,7 +42,8 @@ class Song
      end
  end
    
-  def self.alphabetical(name) 
-    @@all.sort{|a,b| a<=>b}
+  def self.alphabetical
+   return @@all.sort{|a,b| a<=>b}
+ end
   
 end
