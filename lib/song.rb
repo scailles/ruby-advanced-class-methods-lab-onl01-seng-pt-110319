@@ -59,7 +59,7 @@ class Song
     result= self.new_from_filename(filename)
     song= self.create
     song.name = result.name
-    
+    song
   end
   
   
